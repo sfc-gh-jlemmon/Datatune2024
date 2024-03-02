@@ -1,0 +1,24 @@
+name: snowparkbasics
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    # Snowpark
+    - snowflake-snowpark-python[pandas]
+    - snowflake-ml-python
+    # Basics
+    - pandas
+    - numpy
+    # ML
+    - scikit-learn
+    - lightgbm
+    - xgboost
+    # Visualization
+    - seaborn
+    - matplotlib
+    # Misc
+    - cloudpickle
+    - jupyter

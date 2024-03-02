@@ -1,0 +1,8 @@
+{"account": "ORG-ACCOUNT", 
+  "user": "SNOWPARK_USER",
+  "password": "", 
+  "role": "TASTY_DATA_ENGINEER", 
+  "database": "FROSTBYTE_TASTY_BYTES",
+  "schema": "RAW_POS",
+  "warehouse": "TASTY_DE_WH"}
+  
