@@ -19,4 +19,4 @@ We are all local to Nashville, and have varied experience in the data, cloud, an
 
  * Jeremy Lemmon (jeremy.lemmon@snowflake.com) - Session Lead
  * Drew Douthit (drew.douthit@snowflake.com)
- * Jeffrey Blume (jeffrey.blume@snowflake.com)
+ * Jeffery Blume (jeffery.blume@snowflake.com)
