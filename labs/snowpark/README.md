@@ -150,7 +150,7 @@ conda activate snowparkbasics
 
 Conda will automatically install snowflake-snowpark-python and all other dependencies for you. (Note this command will fail if an environment with this name already exists - you can override but it’s a useful check.)
 
-Navigate to the lab folder and edit the creds.json file as follows. Note that holding credentials in a file like this is not great practice, but the initial setup of other authentication approaches can be a little complex.
+Navigate to the lab folder and copy creds-template.json as creds.json.  Then, edit the creds.json file as follows. Note that holding credentials in a file like this is not great practice, but the initial setup of other authentication approaches can be a little complex.
 
 File:   `creds.json`
 
