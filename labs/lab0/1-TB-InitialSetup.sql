@@ -93,7 +93,23 @@ COMMENT = 'data app warehouse for tasty bytes';
 USE ROLE securityadmin;
 
 -- functional roles
-
+CREATE ROLE IF NOT EXISTS tasty_admin
+    COMMENT = 'admin for tasty bytes';
+    
+CREATE ROLE IF NOT EXISTS tasty_data_engineer
+    COMMENT = 'data engineer for tasty bytes';
+      
+CREATE ROLE IF NOT EXISTS tasty_data_scientist
+    COMMENT = 'data scientist for tasty bytes';
+    
+CREATE ROLE IF NOT EXISTS tasty_bi
+    COMMENT = 'business intelligence for tasty bytes';
+    
+CREATE ROLE IF NOT EXISTS tasty_data_app
+    COMMENT = 'data application developer for tasty bytes';
+    
+CREATE ROLE IF NOT EXISTS tasty_dev
+    COMMENT = 'developer for tasty bytes';
 
 
 /**********************************************************
@@ -101,6 +117,8 @@ USE ROLE securityadmin;
 **********************************************************/
 -- privilege grants
 USE ROLE accountadmin;
+
+CREATE ROLE tasty_data_engineer;
 
 GRANT IMPORTED PRIVILEGES ON DATABASE snowflake TO ROLE tasty_data_engineer;
 
