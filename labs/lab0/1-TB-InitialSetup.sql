@@ -118,8 +118,6 @@ CREATE ROLE IF NOT EXISTS tasty_dev
 -- privilege grants
 USE ROLE accountadmin;
 
-CREATE ROLE tasty_data_engineer;
-
 GRANT IMPORTED PRIVILEGES ON DATABASE snowflake TO ROLE tasty_data_engineer;
 
 GRANT CREATE WAREHOUSE ON ACCOUNT TO ROLE tasty_admin;
