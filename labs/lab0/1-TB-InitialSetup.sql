@@ -112,6 +112,15 @@ CREATE ROLE IF NOT EXISTS tasty_dev
     COMMENT = 'developer for tasty bytes';
 
 
+
+GRANT ROLE tasty_admin TO ROLE sysadmin;
+GRANT ROLE tasty_data_engineer TO ROLE tasty_admin;
+GRANT ROLE tasty_data_scientist TO ROLE tasty_admin;
+GRANT ROLE tasty_bi TO ROLE tasty_admin;
+GRANT ROLE tasty_data_app TO ROLE tasty_admin;
+GRANT ROLE tasty_dev TO ROLE tasty_data_engineer;
+
+
 /**********************************************************
     Certain privileges require ACCOUNTADMIN
 **********************************************************/
