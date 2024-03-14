@@ -8,7 +8,7 @@ LIMIT 10;
 
 -- Find how many languages we have to account for
 -- (Snowflake Cortex supports the following for translation: https://docs.snowflake.com/LIMITEDACCESS/cortex-functions#translate )
-SELECT DISTINCT LANGUAGE FROM DASH_D4B_DB.DASH_D4B_SCHEMA.CALL_TRANSCRIPTS;
+SELECT DISTINCT LANGUAGE FROM Datatune_Call_Transcripts.DASH_D4B_SCHEMA.CALL_TRANSCRIPTS;
 
 -- Start with translation
 SELECT 

@@ -19,4 +19,7 @@ We are all local to Nashville, and have varied experience in the data, cloud, an
 
  * Jeremy Lemmon (jeremy.lemmon@snowflake.com) - Session Lead
  * Drew Douthit (drew.douthit@snowflake.com)
- * Jeffery Blume (jeffery.blume@snowflake.com)
+
+### Slides
+See [DataTune 2024](./DataTune%202024%20-%20Snowflake%20Data%20Platform.pdf) for a copy of the slides (~30MB)
+
